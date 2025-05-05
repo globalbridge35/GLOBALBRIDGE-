@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="assets/css/style.css">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>User Profile - Global Bridge</title>
@@ -13,9 +12,9 @@
       <h1>Global Bridge</h1>
       <nav>
         <a href="index.html">Home</a>
-        <a href="about.html">About</a>
         <a href="dashboard.html">Dashboard</a>
-        <a href="profile.html">Profile</a>
+        <a href="admin.html">Admin</a>
+        <a href="profile.html" class="active">Profile</a>
         <a href="login.html">Logout</a>
       </nav>
     </div>
@@ -24,16 +23,15 @@
   <main>
     <section class="profile">
       <h2>User Profile</h2>
-      <div class="profile-info">
-        <p><strong>Name:</strong> Muhammad Yassin Zulfikar</p>
-        <p><strong>Email:</strong> muh.yassinzulfikar25@gmail.com</p>
-        <p><strong>Status:</strong> GKS Aspirant</p>
-        <p><strong>Interest:</strong> Investment Banking, Global Networking</p>
-      </div>
-
-      <div class="profile-actions">
-        <button>Edit Profile</button>
-        <button>View Progress</button>
+      <div class="profile-card">
+        <img src="assets/user-placeholder.png" alt="User Photo" class="profile-photo"/>
+        <div class="profile-info">
+          <p><strong>Name:</strong> Muhammad Yassin Zulfikar</p>
+          <p><strong>Email:</strong> yassin@example.com</p>
+          <p><strong>Role:</strong> Student / GKS Scholar</p>
+          <p><strong>Interest:</strong> Investment Banking, Macroeconomics, Global Networking</p>
+          <p><strong>Joined:</strong> May 2025</p>
+        </div>
       </div>
     </section>
   </main>
@@ -41,6 +39,5 @@
   <footer>
     <p>&copy; 2025 Global Bridge. All rights reserved.</p>
   </footer>
-<script src="assets/js/script.js"></script>
 </body>
 </html>
