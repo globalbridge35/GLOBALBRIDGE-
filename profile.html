@@ -5,6 +5,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>User Profile - Global Bridge</title>
   <link rel="stylesheet" href="assets/style.css" />
+  <style>
+    .edit-btn {
+      background-color: #007bff;
+      color: white;
+      padding: 8px 16px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    .edit-btn:hover {
+      background-color: #0056b3;
+    }
+    .mentor-card {
+      border: 1px solid #ddd;
+      padding: 12px;
+      border-radius: 6px;
+      margin-top: 15px;
+      background-color: #f9f9f9;
+    }
+    .mentor-card h4 {
+      margin: 0 0 5px 0;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -28,10 +52,27 @@
         <div class="profile-info">
           <p><strong>Name:</strong> Muhammad Yassin Zulfikar</p>
           <p><strong>Email:</strong> yassin@example.com</p>
-          <p><strong>Role:</strong> Student / GKS Scholar</p>
-          <p><strong>Interest:</strong> Investment Banking, Macroeconomics, Global Networking</p>
+          <p><strong>Role:</strong> GKS Scholar</p>
+          <p><strong>Interest:</strong> Investment Banking, Global Finance, Macroeconomics</p>
           <p><strong>Joined:</strong> May 2025</p>
+          <button class="edit-btn">Edit Profile</button>
         </div>
+      </div>
+    </section>
+
+    <section class="connections">
+      <h2>Mentoring Connections</h2>
+      <div class="mentor-card">
+        <h4>Seungho Kim</h4>
+        <p><strong>Field:</strong> Investment Banking (Goldman Sachs Korea)</p>
+        <p><strong>Country:</strong> South Korea</p>
+        <button class="edit-btn">Message</button>
+      </div>
+      <div class="mentor-card">
+        <h4>Sarah Johnson</h4>
+        <p><strong>Field:</strong> Academic Advisor (KNU Economics)</p>
+        <p><strong>Country:</strong> United States</p>
+        <button class="edit-btn">Message</button>
       </div>
     </section>
   </main>
